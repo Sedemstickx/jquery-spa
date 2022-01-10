@@ -4,9 +4,9 @@
 #Remove sub urls if you are serving your app from the root folder.
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /jquery_spa/
+    RewriteBase /
     RewriteRule ^index\.html$ - [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule (.*) /jquery_spa/index.html [QSA,L]
+    RewriteRule (.*) index.html [QSA,L]
 </IfModule>
