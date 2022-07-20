@@ -1,4 +1,5 @@
-jquery-spa
+# jquery-spa
+
 A simply made single page application(SPA) template that works exactly like a modern SPA site.
 
 About
