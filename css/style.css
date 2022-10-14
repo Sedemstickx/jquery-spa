@@ -1,0 +1,38 @@
+/*
+styled by: Sedem stickx <sedemdatsa69@gmail.com>
+*/
+html{}
+body{
+    padding: 0px 20px 0px 0px;color:#333;font-family:Segoe UI,helvetica,Arial,sans-serif;display:block;
+}
+#container{
+  padding: 5px;
+  width: 100%;
+}
+nav{
+  padding: 5px;
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 1.37rem;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #999;
+  transition: 0.5s;
+}
+#demo{
+  padding: 5px;
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  color: white;
+  width: 100px;
+  text-align: center;
+  border-radius: 8px;
+}
+#active{color:#999;}
