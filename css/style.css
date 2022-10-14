@@ -23,10 +23,10 @@ nav a{
   text-decoration: none;
 }
 nav a:hover{
-  color: #999;
+  color: yellow;
   transition: 0.5s;
 }
-#demo{
+#show_frameworks{
   padding: 5px;
   border: 1px solid lightgreen;
   background-color: lightgreen;
@@ -34,5 +34,6 @@ nav a:hover{
   width: 100px;
   text-align: center;
   border-radius: 8px;
+  display: none;
 }
-#active{color:#999;}
+#active{color: yellow;}
