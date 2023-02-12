@@ -12,7 +12,7 @@ Just download the files and save them in your webserver and run.
 
 This project is hosted on GH pages so you can see how it works, however due to dependency on apache server edit it has some limitations.
 
-This project has a .htaccess file that works on apache webservers to ensure that on any default browser load action or page access trough the address bar the browser will load the root file of the directory(index.html) before the jquery code loads other pages. If developers run this code on other types of web servers they can delete the .htaccess file and edit their web servers to acheive the same result so that the application doesn't have any limitations.
+This project has a .htaccess file that works on apache webservers to ensure that on any default browser load action or page access trough the address bar the browser will load the root file of the directory(index.html) before the jquery code loads other pages. If developers run this code on other types of web servers they can delete the .htaccess file and edit their web servers to achieve the same result so that the application doesn't have any limitations.
 
 Limitations
 None recorded so far after using all dependencies. Please read code comments to further understand how it works :).
